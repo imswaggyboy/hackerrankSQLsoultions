@@ -1,0 +1,13 @@
+#here i didnt used my brain for the shortcut i.e direct use of max aggregate 
+
+select round(lat_n,4) as lat
+from station
+where lat_n < 137.2345 
+order by lat_n desc
+limit 1;
+
+/*#here is the another soultion for the mentioned problem, here i used the max aggregate function and i think it is simple */
+
+select round(max(lat_n),4) as lat
+from station
+where lat_n < 137.2345;
