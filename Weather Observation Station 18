@@ -1,0 +1,11 @@
+#here you might thought this problem is terible but once you start understanding the problem then it is piece of cake for you 
+this question might seems long but when you know about the "manhattan distance" then the answer is just in your mind and
+actually they already had provided the hintor we say link of the "manhattan distance".
+
+tips : once you start getting the grasp of the problem use your knowledge step by step , apply whatever comes in your mind
+       see whether your doing it write or it is going in another direction (do dry run) you will what a useless tip 
+       but it is easy problem though but sometimes it is difficult to not getting what you already know and that's the problem i'm faced or even can say im facing.
+       
+
+select  round((max(lat_N)-min(lat_n)) + (max(long_w)-min(long_w)),4)
+from station;
