@@ -1,0 +1,5 @@
+once you follow along the same questions your brain catch the things without using any brain power , so do many same types of question and it will also clear the concept! 
+
+select round(min(lat_n),4) as lat
+from station
+where lat_n > 38.7780;
