@@ -1,2 +1,2 @@
 # hackerrankSQLsoultions
-i will provide solution which have h solved !
+i will provide solution which i have solved !
