@@ -1,0 +1,22 @@
+#this quetion seems bit different but it'll not because you have to first know what is "Euclidean Distance" you 
+dont then not to worry ,they alreadyd give link to it.
+and if you solving question sequencely then you'll get answer right away after seeing the question 
+
+
+https://en.wikipedia.org/wiki/Euclidean_distance
+
+select round(sqrt(power(min(lat_n) - max(lat_n),2) + power(min(long_w) - max(long_w),2)),4) 
+from station;
+
+#explaination:
+min(lat_n) => min is for min value in the column lat_n
+and as well max()
+solve the question with trail and error when ur just learning
+after i want to square the "min(lat_n) - max(lat_n)" (i started googling about how to square in SQL then i got the power(column,raised to) raised to= 2 {like column raised to 2 ,column raised to 3 i think you got it!}
+so  i used "power(min(lat_n) - max(lat_n),2)" 
+and after that squart root the whole damn thing 
+and thank god there was "SQRT" for square root  and i used it 
+sqrt(power(min(lat_n) - max(lat_n),2)
+and finally round it to 4 decimal digit round(column,4) here i need 4 digit decimal that's why i used 4 if you want 5 then you have to use 5
+that's all you will get answer:
+if you want further explaination comment and i will
