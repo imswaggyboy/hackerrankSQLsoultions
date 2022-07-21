@@ -1,0 +1,6 @@
+#
+select country.continent,round(avg(city.population)-0.5)
+from country
+join city
+on country.code=city.countrycode
+group by country.continent;
